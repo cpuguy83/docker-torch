@@ -10,7 +10,7 @@ daemon to measure.
 ### Usage
 
 ```
-$ cat stress-config.json | docker run -i --rm cpuguy83/docker-torch -H tcp://<host>:<port> --concurrency 8 --containers 2000 -t 60 > torch.svg
+$ cat stress-config.json | docker run -i --rm cpuguy83/docker-torch -H tcp://<host>:<port> --concurrency 8 --containers 2000 --time 60 > torch.svg
 ```
 
 That will create 2000 containers with a concurrency of 8 while reading the
