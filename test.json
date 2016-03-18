@@ -1,0 +1,5 @@
+[
+    {"name":"busybox", "args": ["true"]},
+    {"name":"busybox", "args": ["ping", "-c", "5", "google.com"]},
+    {"name":"busybox", "args": ["ping", "-c", "5", "google.com"]}
+]
